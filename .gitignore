@@ -1,0 +1,4 @@
+.stack-work/
+typedlua-build-composer.cabal
+*~
+build/

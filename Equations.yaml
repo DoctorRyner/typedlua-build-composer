@@ -1,0 +1,7 @@
+default: sae dev
+
+dev: ghcid -r=compose
+
+lua-run: cd build && lua Main.lua
+
+build: stack run && echo ""
